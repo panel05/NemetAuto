@@ -1,0 +1,119 @@
+/* styles.css */
+
+/* Alapstílusok */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 100;
+    padding: 0;
+	background-image:url(kepek/wp4.jpg);
+	background-repeat: no-repeat ;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+    color: #000000; /* Sötét szürke szöveg */
+}
+
+/* Fejléc stílusa */
+header {
+    width: 500px;
+    position: sticky;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center; /* Középre igazítás */
+    /*background-color: yellow; /* Sötét szürke háttér */
+    margin: 0 0px; /* Oldalt lévő margó */
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    
+    
+}
+
+h1{
+    color: #ffffff;
+}
+
+/* Navigációs sáv stílusa */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+
+
+
+/* Főcímsor stílusa */
+h1 {
+    display: flex;
+    justify-content: center; /* Középre igazítás */
+    /*background-color: #000000; /* Sötét szürke háttér */
+    margin: 0 0px; /* Oldalt lévő margó */
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: background-color 0.3s ease;
+    position: sticky;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    width: 100%;
+}
+
+/* Fő tartalom stílusa */
+main {
+    padding: 20px;
+    max-width: 800px; /* Maximális szélesség */
+    margin: auto; /* Középre igazítás */
+}
+
+/* A képek galéria stílusa */
+.kep-tulajdonsag {
+    display: flex; /* Rugalmas konténer */
+    justify-content: center; /* Középre igazítás */
+    flex-wrap: wrap; /* A képek új sorokba kerülnek, ha nem férnek el */
+    gap: 20px; /* Távolság a képek között */
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    border: 10px double black;
+    border-radius: 3%;
+}
+
+.kozep {
+    margin: 100px;
+}
+
+h3, p {
+    text-align: center; /* Horizontally centers the text */
+    font-size: 1.5em; /* Increases the font size */
+    color: #ffffff; /* Bright white text for dark backgrounds */
+    margin: 20px auto; /* Centers them with auto margins */
+    line-height: 1.6; /* Better line spacing for readability */
+    max-width: 800px; /* Optional: Limits the width for better layout */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds shadow for better readability */
+}
+
+/* Adjust the padding and margins for <p> to avoid excessive spacing */
+p {
+    margin: 20px auto; /* Centers <p> elements with appropriate margin */
+    padding: 0; /* Removes the extra padding */
+}
