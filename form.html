@@ -27,6 +27,7 @@
                         <a href="VolksWagen.html">VolksWagen</a>
                         <a href="prezi.html">Prezentáció</a>
                         <a href="form.html">Kapcsolat</a>
+                        <a href="index.html">Főoldal</a>
                     </div>
                 </nav>
             </div>
@@ -38,22 +39,39 @@
             <H2>
                 Ha bármi kérdése van nyugodtan forduljon hozzánk
             </H2>
+            <div class="card">
+                <div class="container">
             <div class="form">
                 <form action="/action_page.php">
                     <label for="lname">Vezeték név:</label>
-                    <input type="text" id="lname" name="lname" value="Doe"><br>
+                    <input type="text" id="lname" name="lname" value=""><br>
                     <label for="fname">Keresztnév:</label>
-                    <input type="text" id="fname" name="fname" value="John"><br>
+                    <input type="text" id="fname" name="fname" value=""><br>
                     <label for="email">Email cím:</label>
-                    <input type="email" name="email" id="email" value="johndoe@gmail.com"><br>
+                    <input type="email" name="email" id="email" value=""><br>
+                    <p>Válassza ki melyik márkához van kérdése:</p>
+                    <input type="radio" id="audi" name="audi" value="Audi">
+                    <label for="audi">Audi</label><br>
+                    <input type="radio" id="bmw" name="bmw" value="BMW">
+                    <label for="bmw">BMW</label><br>
+                    <input type="radio" id="opel" name="opel" value="Opel">
+                    <label for="opel">Opel</label><br>
+                    <input type="radio" id="porsche" name="porsche" value="Porsche">
+                    <label for="Porsche">Porsche</label><br>
+                    <input type="radio" id="mercedes" name="mercedes" value="Mercedes">
+                    <label for="mercedes">Mercedes</label><br>
+                    <input type="radio" id="volkswagen" name="volkswagen" value="VolksWagen">
+                    <label for="volkswagen">VolksWagen</label><br>
                     <label for="kerdes">Kérdés:</label><br>
                     <textarea name="kerdes" id="kerdes" rows="4" cols="50"></textarea><br>
                     <input type="submit" value="Beküldés">
                 </form>
             </div>
-
+            </div>
+            </div>
         </main>
 
     </div>
+    <footer><p>Készítették: Lovas Ádám, Pantl Alex Balázs, Petró Dániel </p></footer>
 </body>
 </html>
